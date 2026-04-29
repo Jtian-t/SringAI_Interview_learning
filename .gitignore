@@ -1,0 +1,35 @@
+# Gradle
+.gradle/
+**/.gradle/
+build/
+**/build/
+
+# IDE and editor files
+/.claude/
+/.idea/
+**/.idea/
+.vscode/
+*.iml
+
+# Local binaries
+/app/bin/
+
+# Environment variables and local config
+.env
+*.local
+test-output.txt
+
+# IDEA code analysis
+qodana.yaml
+
+# Local-only resources and docs
+app/src/main/resources/application-dev.yml
+/docs/
+SETUP_API_KEYS.md
+
+# AI Assistant documentation
+CLAUDE.md
+GEMINI.md
+
+# Playwright MCP
+.playwright-mcp/
