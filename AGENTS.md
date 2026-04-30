@@ -234,6 +234,14 @@ String result = structuredOutputInvoker.invokeStructuredOutput(prompt, ChatClien
 
 ---
 
+
+## 十四、文档沉淀规范
+
+- 以后在本项目协作过程中，凡是“文档汇总”或“经验总结”类内容，默认写入 Obsidian 指定目录，不写到其他零散位置
+- 指定目录：`C:\笔记软件\file_store\新建文件夹\实习准备\java_guide项目学习\codex辅助学习`
+- 如需在 Obsidian 中新建总结类笔记，默认以上述目录作为落点；除非用户明确指定其他位置
+
+
 ## 速查：禁止清单
 
 | 禁止项 | 原因 |
