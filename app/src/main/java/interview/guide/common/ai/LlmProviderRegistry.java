@@ -262,6 +262,10 @@ public class LlmProviderRegistry {
     }
 
     private List<Advisor> buildDefaultAdvisors(String providerId) {
+        // AdvisorConfig这个是多种状态的boolean，需要根据配置来判断是否开启
+        // 比如 ToolCallAdvisor
+        // private boolean toolCallEnabled = true;
+
         AdvisorConfig config = properties.getAdvisors();
         if (config == null || !config.isEnabled()) {
             return List.of();
